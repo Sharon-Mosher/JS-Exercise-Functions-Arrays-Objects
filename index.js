@@ -37,11 +37,9 @@ function addNumbers(num1, num2) {
  * 
 */
 function sayGoodbye(firstName) {
-  let firstName = Sharon;
-  console.log ('Goodbye, {name}. Have a great day.')
-  
+  console.log('Goodbye, ' +firstName ,". Have a great day." );
 }
-sayGoodbye(Sharon);
+sayGoodbye('Sharon');
 
 
 
